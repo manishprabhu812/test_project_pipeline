@@ -40,7 +40,7 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<applicationName>testappliationcicd</applicationName>
+						<applicationName>testappliationcicd-release4</applicationName>
 						<muleVersion>4.2.2</muleVersion>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
