@@ -40,18 +40,20 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<applicationName>test-application</applicationName>
+						<applicationName>testappliationcicd</applicationName>
 						<muleVersion>4.2.2</muleVersion>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
-						<workerType>small</workerType>
-						<region>us-east</region>
+						<workerType>Small</workerType>
+						<region>us-east-2</region>
 						<server>Anypoint-platform</server>
 						<properties>
-							<mule.env>Sandbox</mule.env>
+							<anypoint.platform.username>manish_march_blog</anypoint.platform.username>
+							<anypoint.platform.password>Mmp@81290</anypoint.platform.password>
 							<anypoint.platform.client_id>9add728e253e4ecf951c4ccace1ec62a</anypoint.platform.client_id>
 							<anypoint.platform.client_secret>9DfFC35d07314B4E905edBB6956a57B1</anypoint.platform.client_secret>
 						</properties>
+						
 					</cloudHubDeployment>
 				</configuration>
 				<executions>
