@@ -15,7 +15,7 @@ http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/
 				<ee:set-payload ><![CDATA[%dw 2.0
 output application/json
 ---
-"welcome to mulesoft"]]></ee:set-payload>
+"welcome to mulesoft world"]]></ee:set-payload>
 			</ee:message>
 		</ee:transform>
 		<logger level="INFO" doc:name="Logger" doc:id="1335ba6d-d923-4cd8-8b42-6fdfcbca27eb" message="payload #[payload]"/>
