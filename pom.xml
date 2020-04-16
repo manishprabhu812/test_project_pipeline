@@ -40,7 +40,7 @@
 				<configuration>
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<applicationName>testappliationcicd-newrelease4v3</applicationName>
+						<applicationName>test-appliation-cicd</applicationName>
 						<muleVersion>4.2.2</muleVersion>
 						<environment>Sandbox</environment>
 						<workers>1</workers>
@@ -48,12 +48,10 @@
 						<region>us-east-2</region>
 						<server>Anypoint-platform</server>
 						<properties>
-							<anypoint.platform.username>manish_march_blog</anypoint.platform.username>
-							<anypoint.platform.password>Mmp@81290</anypoint.platform.password>
-							<anypoint.platform.client_id>9add728e253e4ecf951c4ccace1ec62a</anypoint.platform.client_id>
-							<anypoint.platform.client_secret>9DfFC35d07314B4E905edBB6956a57B1</anypoint.platform.client_secret>
+							
+							<anypoint.platform.client_id>b67daa372f38402eb91db546fdfde907</anypoint.platform.client_id>
+							<anypoint.platform.client_secret>fcFBbeEFaa60485B92D9b748c61BDe27</anypoint.platform.client_secret>
 						</properties>
-						
 					</cloudHubDeployment>
 				</configuration>
 				<executions>
