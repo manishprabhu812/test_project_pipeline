@@ -54,8 +54,9 @@
 						<server>Anypoint-platform</server>
 						<properties>
 							
-							<anypoint.platform.client_id>b67daa372f38402eb91db546fdfde907</anypoint.platform.client_id>
-							<anypoint.platform.client_secret>fcFBbeEFaa60485B92D9b748c61BDe27</anypoint.platform.client_secret>
+							<anypoint.platform.username>manish_april_blog</anypoint.platform.username>
+							<anypoint.platform.password>Mmp@81290</anypoint.platform.password>
+							
 						</properties>
 					</cloudHubDeployment>
 				</configuration>
